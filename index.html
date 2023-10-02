@@ -1,22 +1,70 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8"></meta> <!--chinese conduct-->
-    <title>靖萍的網頁</title>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台北今日下大雪</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div style="float: left">
+        <img src="data:image/png;base64,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" />
+    </div>
+    <div>
+       82.7k 人追蹤
+    </div>
+    </div>
+  
+    
+    <header>
+        <h1>千年以來首次！台北罕見降雪 民眾：就像魔法</h1>
+        <p>日期：2023年10月2日</p>
+    </header>
+    <img src="https://s.yimg.com/ny/api/res/1.2/FiL6MamwWxnGjZDPVYRweA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MDtjZj13ZWJw/https://media.zenfs.com/zh-tw/news_tvbs_com_tw_938/bef34fffc72bd9b36cf7e6c310b56efc">
+    <p>張君堯<br>
+    2023年7月11日</p>   
+    <article>
+        <p>台北市今天迎來了難得的雪天，市民們驚喜地看到漫天飄雪的景象。</p>
+        <p>根據氣象部門的報告，這場大雪是台北市多年來的罕見事件，氣象專家表示，這是由於一股極寒的氣流南下所致。</p>
+        <p>大雪覆蓋了整個城市，給台北市帶來了一幅美麗的銀白世界，許多市民紛紛外出拍照，分享這一難忘的時刻。</p>
+        <p>儘管雪天美麗，但也伴隨著交通困難和路面滑溜的問題。交通部門已呼籲駕駛人要格外小心，並建議市民減少外出。</p>
+        <p>台北市政府也已經啟動應急計劃，確保市民的安全和供應品的穩定供應。</p>
+        <p>氣象部門預測，大雪將持續數小時，然後逐漸減弱。市民們被鼓勵在室內保暖，並關注天氣更新信息。</p>
+       <p> 一場史詩級暴風雪襲擊美國，紐約州的水牛城成了重災區，積雪近140公分，城市在大雪及強風下幾乎癱瘓。<br>餐廳被冰封，駕駛受困車內，居民在家中無法取暖，災難場景令人心驚。
 
-  </head>
-  <body>
-    <body background="https://i2.wp.com/pinkoi-wp-blog.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/sites/7/2021/05/25150924/13.jpg?resize=510%2C208&ssl=1"
-      <h1>第一篇文章</h1><!--h1~h6標題大小，h1為最重要的--> 
-    <p>今天天氣真好</p><!--b粗體;i斜體-->
-    <h2>今天today is a <i><b>good 讚 </b></i> day.<h2> 
-    <br/><!--換行-->
-    <h3>haha</h3>
+世紀暴風雪肆虐美國，紐約州水牛城（Buffalo）附近的一家濱湖餐廳（Hoak's Lakeshore）被完全冰封<br>，宛如電影《明天過後》真實上演。餐廳老闆表示，當天氣溫由攝氏7.2度，急降至零下11度，非常寒冷，加上落日風不斷吹拂，冰柱開始形成。
 
-    <!--連結和圖片-->
-    <a href="https://google.com">google網站</a>
-    <a href="page2.html">page2</a>
-  </body>
+餐廳老闆 KEVIN HOAK：「我想在冰融化之前，我們不會知道（餐廳的損壞）。（冰柱）很重，這是我緊張的地方。<br>但沒有東西損壞， 窗戶沒破，沒有裂縫，而我們剛鋪了新地板，也沒有受影響。所以現在我們還可以，唯一的問題是停車場受損嚴重。」
 
+美國受到北極風暴「炸彈氣旋」（bomb cyclone）襲擊，紐約州西部伊利郡（Erie County）首當其衝，首府水牛城更成了重災區，一夜之間降下一公尺深的積雪。
 
-</html> 
+大雪加上強風，導致大規模停電，部分居民家庭供暖中斷，也有民眾被困在車裡動彈不得。<br>當局呼籲民眾待在室內，不要外出剷雪，並禁止車輛在道路行駛。
+
+紐約州水牛城市長 Byron Brown：「這是一場歷史性的風暴，可能是這座城市50多年來遇到的最嚴重風暴，也可能是有紀錄以來最嚴重的風暴。」
+
+風雪過後，水牛城忙著清理街道，挨家挨戶查看居民安全，並逐一清查車輛。不幸的是，救難人員在路邊的汽車及室外雪堆中，發現了凍死的民眾。據通報，這場冰風暴已造成全美至少62人死亡。</p>
+    </article>
+
+    <footer>
+        <p>更多天氣信息和最新新聞，請訪問我們的網站：<a href="https://www.example.com">www.example.com</a></p>
+        <p>更多 TVBS 報導</p>   
+        <font color="blue"> BBC「誘拍不雅照」事件轉彎？青少年控母親亂講話<br>
+                            瓦格納叛變曾想「掠奪核武基地」？路透：抵達了但被擋門外<br>
+                            葉倫訪中「三度鞠躬」畫面曝光！推特網友狂酸：讓美國丟臉<br>
+                            CPTPP第一個新成員國！彭博：英國下周末將正式簽署加入<br></font>
+
+    </footer>
+</body>
+</html>
